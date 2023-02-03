@@ -99,6 +99,7 @@
 .link{
     text-decoration: none;
     color: var(--hospital-green);
+    font-weight: 500;
 }
 
 @media (max-width:600px){
