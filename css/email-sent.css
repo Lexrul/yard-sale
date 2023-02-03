@@ -107,3 +107,8 @@
         display: block;
     }
 }
+
+.link:hover{
+    color: rgb(64, 192, 92);
+    transition: all .6s;
+}
