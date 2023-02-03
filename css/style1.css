@@ -33,6 +33,7 @@
     width: 200px;
     justify-self: center;
     margin-bottom: 40px;
+    display: none;
 }
 
 .form{
@@ -90,4 +91,10 @@
     height: 50px;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media (max-width:500px){
+    .logo{
+        display: block;
+    }
 }
