@@ -26,14 +26,24 @@
 
 .container{
     width: 300px;
-    display: grid;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo{
     width: 200px;
     justify-self: center;
-    margin-bottom: 40px;
     display: none;
+    
 }
 
 .form{
@@ -97,4 +107,19 @@
     .logo{
         display: block;
     }
+    .container{
+        justify-content: space-between;
+    }
+
+    .logo{
+        margin-top: 230px;
+    }
+    
+    .link{
+        margin-bottom: 30%;
+    }
+    .secondary-button{
+        margin-bottom: 16px;
+    }
+    
 }
